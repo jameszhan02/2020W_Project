@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:project_SSG"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="371" Width="299">
+    <Grid Height="510" Margin="0,0,57,0">
+        <TextBlock HorizontalAlignment="Left" Margin="33,24,0,0" Text="Select User" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ComboBox x:Name="userComboBox" HorizontalAlignment="Left" Margin="115,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Button Content="Go to manage Tasks" HorizontalAlignment="Left" Margin="62,92,0,0" VerticalAlignment="Top" Width="173" Height="31"/>
+        <Button Content="Go Manage the users" HorizontalAlignment="Left" Margin="62,168,0,0" VerticalAlignment="Top" Width="173" Height="35"/>
+        <Button Content="Report your process" HorizontalAlignment="Left" Margin="62,242,0,0" VerticalAlignment="Top" Width="173" Height="33"/>
 
     </Grid>
 </Window>
