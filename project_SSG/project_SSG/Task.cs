@@ -9,5 +9,6 @@ namespace project_SSG
         string content { get; set; }
         string id { get; set; }
         string parent { get; set; } = null;
+        string backlog { get; set; } = "";
     }
 }
